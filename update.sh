@@ -4,8 +4,7 @@
 pacman -Syu --noconfirm
 pacman -Rns --noconfirm
 
-yay -Syu --noconfirm
-yay -Rns --noconfirm
+yay -Sua --noconfirm
 
 # Überprüfe den Status des vorherigen Befehls
 if [ $? -eq 0 ]; then
